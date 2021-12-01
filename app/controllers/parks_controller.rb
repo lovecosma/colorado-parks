@@ -1,11 +1,11 @@
 class ParksController < ApplicationController
 
     def index 
-       json: Park.all
+       render json: Park.all
     end
 
     def show
         park = Park.find(params[:id])
-        json: park
+        redner json: park
     end
 end
