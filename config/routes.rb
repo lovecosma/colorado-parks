@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  root "parks#welcome"
   scope :api do 
     resources :parks
   end
