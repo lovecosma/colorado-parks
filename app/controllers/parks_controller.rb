@@ -5,6 +5,7 @@ class ParksController < ApplicationController
     end
 
     def show
+         
         park = Park.find(params[:id])
         json: park
     end
