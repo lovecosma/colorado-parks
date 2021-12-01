@@ -1,4 +1,5 @@
 class ParksController < ApplicationController
+
     def index 
        json: Park.all
     end
